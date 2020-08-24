@@ -1,12 +1,18 @@
 <!--<app-welcome></app-welcome>-->
 
 <!-- <app-login></app-login> -->
-<!--
-<div>Component Content</div>-->
-<app-menu></app-menu>
 
-<div class="container">
-    <router-outlet></router-outlet>
+<!-- <div>Component Content</div> -->
+<app-menu></app-menu>
+<app-login></app-login>
+<div style="text-align: center">
+    <h1>
+        Welcome to {{ title }}!
+        {{ message }}
+    </h1>
+    <img width="300" alt="Angular Logo" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fangular.io%2F&psig=AOvVaw2IBwbe6GBlzaTVFt_26pjw&ust=1598355989440000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOij15nis-sCFQAAAAAdAAAAABAD">
 </div>
+    <router-outlet></router-outlet>
+
 
 <app-footer></app-footer>
