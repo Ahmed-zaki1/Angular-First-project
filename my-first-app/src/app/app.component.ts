@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: '<./app.component.html>',
-  template: '<h1>{{title}}</h1>',
+  templateUrl: './app.component.html',
+  //template: '<h1>{{title}}<h1>',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-first-app';
-message = 'Welcome to The Depth of hell';
+  title = 'todo';
+  message = 'Welcome to in28Minutes';
 }
